@@ -140,6 +140,8 @@ public class BaseConversion implements ActionListener
     else if (paramInt == 2) paramInt = 10; else {
       paramInt = 16;
     }
+    if(paramString.charAt(0)=='-')
+        paramString = paramString.substring(1);
     for (int i = 0; i < paramString.length(); i++)
     {
       int j = 0;
