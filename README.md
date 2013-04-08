@@ -1,9 +1,6 @@
 JCalculator
 ===========
 
-Description
-------------
-
 Basically it is a scientific calculator with a pluggable feature. When the application starts it searches the directory for the available class files. Those class files are loaded dynamically at runtime when they are selected through the combobox. These other class files represent specific functions that the scientific calculator can perform. At present, there are 3 files which are for matrix, complex calculations and base conversion.
 Now, if I want to add a feature of equation solving, all I need to do is create a new class file which performes the function, and place it in the directory. No modification is required to be done to the base class.
 Alternatively, the base class can be executed even without the other class files. Then it wont have the complex, matrix and base conversion features.
