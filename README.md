@@ -30,7 +30,7 @@ Just create the component array and return. The base class will add all of them 
 To Run
 -------
 
-Open terminal and go to the source directory. Type `java JCalculator.`
+Open terminal and go to the source directory. Compile and run `java JCalculator.`
 
 Runs on both windows and linux.
 
